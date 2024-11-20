@@ -1,0 +1,42 @@
+.slider {
+  width: 500px;
+  margin: 50px auto;
+  position: relative;
+}
+
+.slide {
+  display: none;
+  width: 100%;
+  border: 1px solid #ccc;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.slide.active {
+  display: block;
+}
+
+.prev, .next {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background-color: rgba(0, 0, 0, 0.5);
+  color: white;   
+
+  padding: 10px 15px;
+  border: none;
+  cursor: pointer;   
+
+}
+
+.prev {
+  left: 10px;
+}
+
+.next {
+  right: 10px;
+}
+
+.image-counter {
+  text-align: center;
+  margin-top: 10px;
+}
